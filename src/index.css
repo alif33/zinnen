@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.card {
+  margin-top: 8px;
+}
+.card ul li{
+  border: 1px solid gray;
+  margin-left: 7px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.completed li{
+  background-color: #D7EFE0;
+}
+.incomplete li{
+  background-color: #E5E6E8;
+}
+.display span{
+  margin-right: 8px;
+}
